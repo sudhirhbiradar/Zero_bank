@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+<listeners>
+<listener class-name="com.qa.ExtentReportListener.ExtendReportListenerNg"></listener>
+</listeners>
+
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="com.zerobank.qa.testcases.Account_activity_page_test"/>
+      <class name="com.zerobank.qa.testcases.Account_summary_page_test"/>
+      <class name="com.zerobank.qa.testcases.Add_new_payee_page_test"/>
+      <class name="com.zerobank.qa.testcases.Feedback_page_test"/>
+      <class name="com.zerobank.qa.testcases.Find_transaction_page_test"/>
+     <class name="com.zerobank.qa.testcases.Home_page_test"/>
+     <class name="com.zerobank.qa.testcases.My_money_map_page_test"/>
+     <class name="com.zerobank.qa.testcases.Online_transaction_page_test"/>
+      <class name="com.zerobank.qa.testcases.Pay_bills_page_test"/>
+      <class name="com.zerobank.qa.testcases.Purchase_currency_test"/>
+      <class name="com.zerobank.qa.testcases.Tranfer_fund_page_test"/>
+  
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

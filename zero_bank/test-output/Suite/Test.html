@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 15 15:49:12 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>548 seconds (548607 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC10()'><b>TC10</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>8</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC11()'><b>TC11</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>7</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC13()'><b>TC13</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>12</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Online_transaction_page_test.TC13()'><b>TC13</b><br>Test class: com.zerobank.qa.testcases.Online_transaction_page_test</td>
+<td></td>
+<td>8</td>
+<td>com.zerobank.qa.testcases.Online_transaction_page_test@64729b1e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC14()'><b>TC14</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>9</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC15()'><b>TC15</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>9</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC16()'><b>TC16</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>9</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC17()'><b>TC17</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>9</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_activity_page_test.TC17_DOUBLE()'><b>TC17_DOUBLE</b><br>Test class: com.zerobank.qa.testcases.Account_activity_page_test</td>
+<td></td>
+<td>10</td>
+<td>com.zerobank.qa.testcases.Account_activity_page_test@71bbf57e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Find_transaction_page_test.TC18_TC19()'><b>TC18_TC19</b><br>Test class: com.zerobank.qa.testcases.Find_transaction_page_test</td>
+<td></td>
+<td>11</td>
+<td>com.zerobank.qa.testcases.Find_transaction_page_test@23faf8f2</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Home_page_test.TC2()'><b>TC2</b><br>Test class: com.zerobank.qa.testcases.Home_page_test</td>
+<td></td>
+<td>1</td>
+<td>com.zerobank.qa.testcases.Home_page_test@2d6eabae</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Tranfer_fund_page_test.TC20()'><b>TC20</b><br>Test class: com.zerobank.qa.testcases.Tranfer_fund_page_test</td>
+<td></td>
+<td>13</td>
+<td>com.zerobank.qa.testcases.Tranfer_fund_page_test@6895a785</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Pay_bills_page_test.TC21()'><b>TC21</b><br>Test class: com.zerobank.qa.testcases.Pay_bills_page_test</td>
+<td></td>
+<td>52</td>
+<td>com.zerobank.qa.testcases.Pay_bills_page_test@10bbd20a</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Add_new_payee_page_test.TC22()'><b>TC22</b><br>Test class: com.zerobank.qa.testcases.Add_new_payee_page_test</td>
+<td></td>
+<td>11</td>
+<td>com.zerobank.qa.testcases.Add_new_payee_page_test@51cdd8a</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Purchase_currency_test.TC23()'><b>TC23</b><br>Test class: com.zerobank.qa.testcases.Purchase_currency_test</td>
+<td></td>
+<td>10</td>
+<td>com.zerobank.qa.testcases.Purchase_currency_test@48503868</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Feedback_page_test.TC26()'><b>TC26</b><br>Test class: com.zerobank.qa.testcases.Feedback_page_test</td>
+<td></td>
+<td>2</td>
+<td>com.zerobank.qa.testcases.Feedback_page_test@d44fc21</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Home_page_test.TC3()'><b>TC3</b><br>Test class: com.zerobank.qa.testcases.Home_page_test</td>
+<td></td>
+<td>6</td>
+<td>com.zerobank.qa.testcases.Home_page_test@2d6eabae</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Home_page_test.TC4()'><b>TC4</b><br>Test class: com.zerobank.qa.testcases.Home_page_test</td>
+<td></td>
+<td>5</td>
+<td>com.zerobank.qa.testcases.Home_page_test@2d6eabae</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Home_page_test.TC5()'><b>TC5</b><br>Test class: com.zerobank.qa.testcases.Home_page_test</td>
+<td></td>
+<td>2</td>
+<td>com.zerobank.qa.testcases.Home_page_test@2d6eabae</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC6()'><b>TC6</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>7</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC7()'><b>TC7</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>11</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC8()'><b>TC8</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>8</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.Account_summary_page_test.TC9()'><b>TC9</b><br>Test class: com.zerobank.qa.testcases.Account_summary_page_test</td>
+<td></td>
+<td>8</td>
+<td>com.zerobank.qa.testcases.Account_summary_page_test@7f13d6e</td></tr>
+<tr>
+<td title='com.zerobank.qa.testcases.My_money_map_page_test.verifyhomepagetitle()'><b>verifyhomepagetitle</b><br>Test class: com.zerobank.qa.testcases.My_money_map_page_test</td>
+<td></td>
+<td>14</td>
+<td>com.zerobank.qa.testcases.My_money_map_page_test@4e7dc304</td></tr>
+</table><p>
+</body>
+</html>
